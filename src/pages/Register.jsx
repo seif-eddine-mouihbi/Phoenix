@@ -75,7 +75,7 @@ function Register() {
 
               <TextField
                 type="password"
-                name="pasword"
+                name="password"
                 label="Password"
                 placeholder="Enter your password"
                 required={true}

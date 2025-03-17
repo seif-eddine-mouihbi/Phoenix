@@ -15,6 +15,11 @@ import App from '../App';
 import Register from '../pages/Register';
 
 /**
+ * Acions
+ */
+import registerAction from './actions/registerAction';
+
+/**
  * Router
  */
 const router = createBrowserRouter([
@@ -24,7 +29,8 @@ const router = createBrowserRouter([
   },
   {
     path: '/register',
-    element: <Register />
+    element: <Register />,
+    action: registerAction
   }
 ]);
 
